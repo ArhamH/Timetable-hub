@@ -64,7 +64,8 @@ st.title("📅 HBTU Timetable Hub")
 st.caption("Live Sync with official hbtu.ac.in portal")
 
 # Credits block
-st.info("**Created by Arham Hasan** — 1st Year, BS Mathematics & Data Science, HBTU Kanpur")
+st.info('''**Created by Arham Hasan** 
+1st Year, BS Mathematics & Data Science, HBTU Kanpur''')
 
 timetables, sync_time = fetch_timetables()
 
