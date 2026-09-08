@@ -41,13 +41,13 @@ def fetch_timetables():
                 
                 tag = "General"
                 if "b.tech" in lower_text:
-                    tag = "B.Tech"
+                    tag = "BS / B.Tech"
                 elif "mca" in lower_text:
                     tag = "MCA"
                 elif "m.tech" in lower_text:
                     tag = "M.Tech"
                 elif "msc" in lower_text or "m.sc" in lower_text or "bs" in lower_text:
-                    tag = "BS / M.Sc"
+                    tag = "M.Sc"
 
                 extracted.append({
                     "title": text,
